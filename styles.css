@@ -13,8 +13,8 @@ body {
   display: grid;
   margin-top: 2rem;
   justify-content: center;
-  grid-template-columns: repeat(4, 6rem); /*To align the div column wise*/
-  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem); /* To align the div in row wise*/
+  grid-template-columns: repeat(4, 6rem); 
+  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem); 
 }
 
 .calculator > button {
@@ -29,18 +29,17 @@ body {
 
 .calculator > button:hover,
 .calculator > button:focus {
-  /*focus is to keep the changes until we press another button*/
   background-color: rgba(255, 255, 255, 0.9);
   color: black;
 }
 
 .span-two {
-  grid-column: span 2; /*To make the button cover two cells*/
+  grid-column: span 2; 
   flex: 1 1 0%;
 }
 
 .output {
-  grid-column: 1/ -1; /*To Cover the output box in the whole div*/
+  grid-column: 1/ -1; /
   background-color: rgba(0, 0, 0, 0.75);
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
